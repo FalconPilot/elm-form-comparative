@@ -44,6 +44,6 @@ init =
 view : Model -> Html Msg
 view model =
   div []
-    [ h1 [] [ text (String.concat(["Hello ", model.name])) ]
+    [ h2 [] [ text (String.concat(["Hello ", model.name])) ]
     , input [ placeholder ("Who should I greet ?"), onInput (Rename) ] []
     ]
