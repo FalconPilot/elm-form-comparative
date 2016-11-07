@@ -1,0 +1,48 @@
+/*
+**  Main style
+*/
+
+body {
+  margin: 0;
+  background-color: #333;
+  color: #FFF;
+}
+
+input {
+  position: relative;
+  border-radius: 10px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  min-width: 150px;
+}
+
+/*
+**  App styles
+*/
+
+.maintitle {
+  font-variant: small-caps;
+  font-size: 30px;
+  width: 100%;
+  margin: 0;
+  background-color: #CCC;
+  color: #333;
+  text-align: center;
+}
+
+.app-block, .app-block > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.app-block {
+  margin-bottom: 30px;
+}
+
+.app-block h2 {
+  text-align: center;
+}
