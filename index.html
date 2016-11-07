@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <!-- HEAD -->
+  <head>
+    <title>Hello !</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="app-elm.js"></script>
+    <script>
+      let div = document.getElementById('elm-greet')
+      Elm.embed(Elm.Greeting, div)
+    </script>
+  </head>
+  <!-- BODY -->
+  <body>
+    <!-- Elm portion -->
+    <div id="elm-greet"></div>
+  </body>
+</html>
