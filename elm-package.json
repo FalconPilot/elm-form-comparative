@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
     "summary": "A simple adaptive hello world in elm",
-    "repository": "https://github.com/FalconPilot/elm-form-comparative",
+    "repository": "https://github.com/FalconPilot/elm-form-comparative.git",
     "license": "MIT",
     "source-directories": [
         "."
