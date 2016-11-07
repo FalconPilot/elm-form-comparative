@@ -5,8 +5,14 @@
     <title>Hello !</title>
     <meta charset="utf-8">
     <meta author="falconpilot">
+    <script type="text/javascript" src="app-elm.js"></script>
   </head>
   <!-- BODY -->
   <body>
+    <div id="app-elm"></div>
   </body>
+  <script>
+    let elm_div = document.getElementById('app-elm')
+    Elm.embed(Elm.Greeting, elm_div)
+  </script>
 </html>
